@@ -3,9 +3,9 @@
 class Home extends CI_Controller {
 
 	
-	public function beranda()
+	public function home()
 	{
-		$this->load->view('home');
+		$this->load->view('template');
 	}
 
 	public function about(){
